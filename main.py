@@ -92,7 +92,7 @@ def createShedules():
 
 
 
-bot = telebot.TeleBot('6751505960:AAFVKf5BFEZQIvnaThn3_GGDo79DS0BvCIE')
+bot = telebot.TeleBot('TOKEN')
 
 @bot.message_handler(commands=['start'])
 def handle_start(message):
